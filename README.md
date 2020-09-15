@@ -1,14 +1,14 @@
-# Phase 2 Final Project
+# Phase 2 Project
 
 ## Introduction
 
-In this lesson, we review the guidelines for the Phase 2 Final Project.
+In this lesson, we review the guidelines for the Phase 2 Project.
 
 ## Objectives
 
 You will be able to:
 
-* Start your Phase 2 Final Project
+* Start your Phase 2 Project
 * Check that your project meets the requirements
 * Submit your project materials in Canvas
 * Prepare for your project review
@@ -19,11 +19,11 @@ Another module down--you're almost half way there!
 
 ![awesome](https://raw.githubusercontent.com/learn-co-curriculum/dsc-phase-2-project-online/master/halfway-there.gif)
 
-All that remains in Phase 2 is to put our newfound data science skills to use with a final project! You should expect this project to take between 20 and 25 hours of solid, focused effort. If you're done way quicker, go back and dig in deeper or try some of the optional "level up" suggestions. If you're worried that you're going to get to 30 hrs and still not even have the data imported, reach out to an instructor in Slack ASAP to get some help!
+All that remains in Phase 2 is to put our newfound data science skills to use with a large project! You should expect this project to take between 20 and 25 hours of solid, focused effort. If you're done way quicker, go back and dig in deeper or try some of the optional "level up" suggestions. If you're worried that you're going to get to 30 hrs and still not even have the data imported, reach out to an instructor in Slack ASAP to get some help!
 
 ### The Data
 
-For this project, you'll be working with the King County House Sales dataset. We've modified the dataset to make it a bit more fun and challenging.  The dataset can be found in the file `kc_house_data.csv` in the data folder in this repo. 
+For this project, you'll be working with the King County House Sales dataset. We've modified the dataset to make it a bit more fun and challenging.  The dataset can be found in the file `kc_house_data.csv` in the data folder in this repo.
 
 The description of the column names can be found in the `column_names.md` file in the data folder in this repo. As with most real world data sets, the column names are not perfectly described, so you'll have to do some research or use your best judgment if you have questions relating to what the data means.
 
@@ -100,7 +100,7 @@ Once you're done with the numbered topics in Phase 1, please start on the projec
 
 ## Project Submission and Review
 
-Review [the Project Submission and Review guidance][] to learn how to submit your project and how it will be reviewed. Your project must pass review for you to progress to the next Phase.
+Review [the Phase Project Submission and Review guidance][] to learn how to submit your project and how it will be reviewed. Your project must pass review for you to progress to the next Phase.
 
 **Please note: We need to receive your complete submission at least 24 hours before your review to confirm that you are prepared for the review. If you wish to revise your submission, please do so no later than 3 hours before your review so that we can have time to look at your updated materials.**
 
@@ -112,4 +112,4 @@ The projects are serious and important - they can be passed and they can be fail
 
 [the Phase 2 Project Repository]: https://github.com/learn-co-curriculum/dsc-phase-2-project-online
 [instructions here]: https://support.zoom.us/hc/en-us/articles/201362473-Local-recording
-[the Project Submission and Review guidance]: https://github.com/learn-co-curriculum/dsc-project-submissions-online
+[the Phase Project Submission and Review guidance]: https://github.com/learn-co-curriculum/dsc-project-submissions-online
