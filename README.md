@@ -1,4 +1,5 @@
 Flatiron Data Science Program
+
 Module 2 Project
 
 October 9, 2020
@@ -25,6 +26,7 @@ replacing null values as appropriate, cropped outliers, and dropping or engineer
 
 Please see my [cleaning notebook](./notebooks/Data_Cleaning.ipynb) for methodology and cleaning process.
 
+### Questions/EDA
 
 #### 1) Where are the most largest and expensive homes?
 
@@ -32,10 +34,10 @@ Full analysis: [Question 1 Notebook](./notebooks/Question_1_Where?.ipynb)
 
 The most expensive homes are on average on the east bank of Lake Washington in the Bellevue area. This area also contains the largest homes in the data set. Bellevue spans six zipcodes, 98004-98009.
 
-![Price Chloropleth](./images/price_mean_map)
+![Price Chloropleth](./images/price_mean_map.png)
 
 
-![Living Area Chloropleth](./images/sqft_liv_map)
+![Living Area Chloropleth](./images/sqft_liv_map.png)
 
 
 
@@ -46,7 +48,7 @@ Full analysis: [Question 2 Notebook](./notebooks/Question_2_Age?.ipynb)
 
 Individually, age of home does not seem to be a good predictor of home price. No correlation observed. When age is grouped by decade, some age ranges show statistically different *average* prices. Using tukey testing, in 44 cases (of 66 comparisons) we reject the null - that the decade price means are the same.
 
-![Difference in mean price by decade](./images/mean_age)
+![Difference in mean price by decade](./images/mean_age.png)
 
 
 
@@ -57,9 +59,9 @@ Full analysis: [Question 3 Notebook](./notebooks/Question_3_Conditions?.ipynb)
 
 Relationship between home age, condition, and grade were explored. Grade had the most notable correlation with price. Renovations were shown to on average, improve grade and thus increase price. Renovations completed more recently showed biggest potential for price increase. See notebook for condition and grade ranking scale (as established by King County).
 
-![Age grade price](./images/age_grade)
+![Age grade price](./images/age_grade.png)
 
-![Reno on price](./images/reno)
+![Reno on price](./images/reno.png)
 
 
 
@@ -86,7 +88,7 @@ Validate model performance:
 
 My client, an emerging real estate brokerage firm, may consider advertising their business in the Bellevue area in the hopes of scooping up clients in this area. Grade has the most significantt effect on price observed. Renovations are a good way to improve housing grade.
 
-- - -  TODO: model results
+- - - - - - - -  TODO: model results
 
 
 ### Future Work
@@ -98,7 +100,7 @@ My client, an emerging real estate brokerage firm, may consider advertising thei
 
 ### Thank you for viewing my project!
 
-Please review the full analysis in my [Jupyter Notebooks](./notebooks) or view my presentation as [sides](./presentation.pdf) or [video]().
+Please review the full analysis in my [Jupyter Notebooks](./notebooks) or view my presentation as [slides](./presentation.pdf) or [video]().
 
-![TGIF](./images/tgif)
+![TGIF](./images/tgif.jpg)
 
