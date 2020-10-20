@@ -93,7 +93,11 @@ The model required a reduction of data to homes **under $1,000,000** which is mu
 
 ### Thank you for viewing my project!
 
+<<<<<<< HEAD
 Please review the full analysis in my [Jupyter Notebooks](./notebooks) or view my presentation as [slides](./MoD02presentation.pdf) or [video]().
+=======
+Please review the full analysis in my [Jupyter Notebooks](./notebooks) or view my presentation as [slides](./Mod02_presentation.pdf) or [video]().
+>>>>>>> 27c749df1093d11445ec365160899aaf43bb094c
 
 ![TGIF](./images/tgif.jpg)
 
