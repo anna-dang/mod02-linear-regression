@@ -69,9 +69,9 @@ Relationship between home age, condition, and grade were explored. Grade had the
 
 Model aims to predict the sale price based on selected features. 'Grade' and 'Sq footage of living area' were the most correlated with the target ('price'). Two series of trials were conducted using one and dropping the other for a toal of 7 iterations. 'sqft_living' created more sound models. Maximum price for homes was subset to homes under $1,000,000, lot size under 25,000 sq ft and home size under 4,000 sq ft to reduce outliers and noise. The final model used **7 total features**. The top 3 features with the greatest impact on the model were: 
 
-    - **zipcode rank price** (an engineered 5 tier rank based on median price percentiles of all 70 zip codes) 
-    - **square footage of the living area** (provided in original set)
-    - **the population density of the zipcode** (sourced from King County website, in persons per sq. mile)
+    - zipcode rank price (an engineered 5 tier rank based on median price percentiles of all 70 zip codes) 
+    - square footage of the living area (provided in original set)
+    - the population density of the zipcode (sourced from King County website, in persons per sq. mile)
 
 The train/test data split showed a difference of $642 or 0.7%, with training data being just slightly higher - therefore **the model is well fit** for housing prices from this time, but may be overfit to training data for pricing houses outside this scope. The model was succesfully cross-validated across **five K-folds** to predict house price with given features with a **mean error of $92,000**. The model statistically met **3 of 4 assumptions** required for linear regression. While the residuals visually appeared normal and homoskedastic, the model failed significance test for normality of residuals. The skew and kurtorsis were **-0.78 and 3.22**, respectively, and I considered this normal enough to proceed. 
 
@@ -93,11 +93,7 @@ The model required a reduction of data to homes **under $1,000,000** which is mu
 
 ### Thank you for viewing my project!
 
-<<<<<<< HEAD
-Please review the full analysis in my [Jupyter Notebooks](./notebooks) or view my presentation as [slides](./MoD02presentation.pdf) or [video]().
-=======
 Please review the full analysis in my [Jupyter Notebooks](./notebooks) or view my presentation as [slides](./Mod02_presentation.pdf) or [video]().
->>>>>>> 27c749df1093d11445ec365160899aaf43bb094c
 
 ![TGIF](./images/tgif.jpg)
 
